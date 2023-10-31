@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+.outer_div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.border{
+    border: 1px solid white;
+    width: 70%;
+    padding: 2%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+input[type="text"],input[type="number"],input[type="email"],select{
+    border-radius: 5px;
+    padding: .8%;
+}
+.customer{
+    margin: 5% auto;
+
+}
+.customer_flex{
+    display: flex;
+}
+.input_container :hover{
+    border: 10px solid cornflowerblue;
+}
+.input_container{
+    width: 100%;
+}
+.input_container>input{
+    width: 98%;
+}
+.street_address>input{
+    width: 100%;
+}
+.street_address>input{
+    width: 100%;
+}
+.address_flex{
+    display: flex;
+}
+.zip{
+    width: 45%;
+}
+select{
+    width: 70%;
+}
+.contact{
+ margin: 5% auto;
+
+}
+.contact_flex{
+    display: flex;
+}
+.gender{
+    margin-bottom: 5%;
+}
+b{
+    margin-right: 5%;
+}
+.ratings_container>.ratings{
+    margin-top: 3%;
+}
+.ratings>label{
+    margin-right: 2%;
+    margin-left: .5%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background: rgb(82,82,201);
+    color: white;
+    padding: 1% 1.5%;
+    border-radius: 5px;
+    border: 0;
+    margin: 1.5% auto;
+    font-weight: 900;
+}
+
